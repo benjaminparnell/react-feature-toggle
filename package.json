@@ -1,6 +1,6 @@
 {
   "name": "@benparnell/react-feature-toggle",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Use feature toggles with React",
   "main": "dist/main.js",
   "typings": "dist/main.d.ts",
