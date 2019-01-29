@@ -1,0 +1,55 @@
+{
+  "name": "@benparnell/react-feature-toggle",
+  "version": "1.0.0",
+  "description": "Use feature toggles with React",
+  "main": "dist/main.js",
+  "typings": "dist/main.d.ts",
+  "scripts": {
+    "prebuild": "rimraf dist",
+    "build": "tsc -p tsconfig.build.json",
+    "test": "jest"
+  },
+  "keywords": [
+    "react",
+    "typescript",
+    "feature",
+    "toggles"
+  ],
+  "files": [
+    "dist"
+  ],
+  "author": "Ben Parnell <benjaminparnell.94@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benjaminparnell/react-feature-toggle.git"
+  },
+  "license": "MIT",
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  },
+  "peerDependencies": {
+    "react": ">=16"
+  },
+  "dependencies": {
+    "@types/react": "^16.7.22",
+    "tslib": "^1.9.3",
+    "typescript": "^3.2.4"
+  },
+  "devDependencies": {
+    "@types/jest": "^23.3.13",
+    "husky": "^1.3.1",
+    "jest": "^23.6.0",
+    "prettier": "^1.16.1",
+    "pretty-quick": "^1.10.0",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "react-testing-library": "^5.4.4",
+    "ts-jest": "^23.10.5"
+  },
+  "bugs": {
+    "url": "https://github.com/benjaminparnell/react-feature-toggle/issues"
+  },
+  "homepage": "https://github.com/benjaminparnell/react-feature-toggle#readme"
+}

@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "declaration": true,
+    "declarationDir": "dist",
+    "outDir": "dist",
+    "moduleResolution": "node",
+    "strict": true,
+    "jsx": "react",
+    "noImplicitAny": true,
+    "removeComments": true,
+    "skipLibCheck": true,
+    "importHelpers": true,
+    "esModuleInterop": true,
+    "strictNullChecks": true,
+    "stripInternal": true,
+    "lib": ["es2015", "dom"]
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", ".git", "dist"]
+}
